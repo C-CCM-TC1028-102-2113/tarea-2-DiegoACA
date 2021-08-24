@@ -8,7 +8,7 @@ def main():
     if e >= 0 and (i == "s" or i == "n"):
         if e >= 18 and i == "s":
             print("Trámite de licencia concedido")
-        else:
+        elif e < 18:
             print("No cumples requisitos")
     else:
         print('Respuesta incorrecta')
