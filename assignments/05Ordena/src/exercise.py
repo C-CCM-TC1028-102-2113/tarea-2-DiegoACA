@@ -7,20 +7,31 @@ def main():
 
     if x > y and x > z:
         if y > z:
-            print(x,y,z,sep=", ")
+            print(z)
+            print(y)
+            print(x)
         else:
-            print(x,z,y,sep=", ")
+            print(y)
+            print(z)
+            print(x)
     elif y > x and y > z:
         if x > z:
-            print(y,x,z,sep=", ")
+            print(z)
+            print(x)
+            print(y)
         else:
-            print(y,z,x,sep=", ")
+            print(x)
+            print(z)
+            print(y)
     elif z > y and z > x:
         if y > x:
-            print(z,y,x,sep=", ")
+            print(x)
+            print(y)
+            print(z)
         else:
-            print(z,x,y,sep=", ")
-
+            print(y)
+            print(x)
+            print(z)
 
     pass
 
