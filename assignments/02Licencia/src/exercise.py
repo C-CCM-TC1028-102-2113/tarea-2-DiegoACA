@@ -3,7 +3,7 @@ def main():
     #Escribe tu código debajo de esta línea
 
     e = int(input('Ingresa tu edad: '))
-    i = str(input("identificaciòn? (s/n)"))
+    i = str(input('¿Tienes identificación oficial? (s/n): '))
 
     if e >= 0 and (i == "s" or i == "n"):
         if e >= 18 and i == "s":
