@@ -2,7 +2,7 @@
 def main():
     #Escribe tu código debajo de esta línea
 
-    e = int(input("edad?"))
+    e = int(input('Ingresa tu edad: '))
     i = str(input("identificaciòn? (s/n)"))
 
     if e >= 0 and (i == "s" or i == "n"):
