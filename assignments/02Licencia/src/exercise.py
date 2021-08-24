@@ -10,6 +10,8 @@ def main():
             print("Trámite de licencia concedido")
         elif e < 18:
             print("No cumples requisitos")
+        elif i != "s":
+            print("No cumples requisitos")
     else:
         print('Respuesta incorrecta')
 
