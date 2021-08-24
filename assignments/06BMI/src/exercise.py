@@ -6,20 +6,20 @@ def main():
 
     bmi = p / a**2
 
-    if p < 0 or a < 0:
+    if p <= 0 or a <= 0:
         print('Revisa tus datos, alguno de ellos es erróneo.')
 
     else:
         if bmi < 20:
-            print("peso bajo")
+            print('PESO BAJO')
         elif 20 <= bmi < 25:
-            print("normal")
+            print('NORMAL')
         elif 25 <= bmi < 30:
-            print("sobrepeso")
+            print('SOBREPESO')
         elif 30 <= bmi < 40:
-            print("obesidad")
+            print('OBESIDAD')
         elif bmi >= 40:
-            print("obesidad morbida")
+            print('OBESIDAD MORBIDA')
 
     pass
 if __name__=='__main__':
