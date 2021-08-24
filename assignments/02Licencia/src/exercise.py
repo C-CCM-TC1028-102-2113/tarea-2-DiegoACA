@@ -8,15 +8,12 @@ def main():
     if e > 0 and (i == "s" or i == "n"):
         if e >= 18 and i == "s":
             print("Trámite de licencia concedido")
-        elif e < 18:
+        else:
             print("No cumples requisitos")
-        elif i != "s":
-            print("No cumples requisitos")
-    elif e <= 0:
-        print('Respuesta incorrecta')
+    else:
+        print("Respuesta incorrecta")
 
     pass
-
 
 if __name__ == '__main__':
     main()
