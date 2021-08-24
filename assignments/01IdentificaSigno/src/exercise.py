@@ -5,9 +5,9 @@ def main():
     num = int(input('Dame un número: '))
 
     if num >= 0:
-        print("es positivo")
+        print('Es positivo')
     else:
-        print("es negativo")
+        print('Es negativo')
 
     pass
     
