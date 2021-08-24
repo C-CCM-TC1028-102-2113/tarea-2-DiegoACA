@@ -11,7 +11,7 @@ def main():
         else:
             print("No cumples requisitos")
     else:
-        print("Datos invalidos")
+        print('Respuesta incorrecta')
 
     pass
 
