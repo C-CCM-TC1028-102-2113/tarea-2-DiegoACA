@@ -4,8 +4,10 @@ def main():
 
     num = int(input('Dame un número: '))
 
-    if num >= 0:
+    if num > 0:
         print('Es positivo')
+    elif num == 0:
+        print('Es cero')
     else:
         print('Es negativo')
 
