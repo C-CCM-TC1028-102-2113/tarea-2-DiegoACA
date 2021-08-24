@@ -1,6 +1,14 @@
 import math
 def main():
     #escribe tu código abajo de esta línea
+
+    num = int(input("Dame un nùmero entero:"))
+
+    if num >= 0:
+        print("es positivo")
+    else:
+        print("es negativo")
+
     pass
     
 
